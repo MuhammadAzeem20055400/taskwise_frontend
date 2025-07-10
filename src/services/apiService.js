@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:5000/api';
+const baseURL = 'https://taskwise-backend-sawt.onrender.com/api';
 
 export async function request(url, method, body = null) {
   const token = localStorage.getItem('token');
